@@ -40,6 +40,8 @@
 // Macro for processing control characters.
 #define CTRL(x) ((x) & ~0140)
 
+struct game g;
+
 /*
  * Resets all game data ready for a new game and redraws.
  */

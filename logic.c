@@ -14,6 +14,8 @@
 #include <stdlib.h>
 #include <string.h>
 
+extern struct game g;
+
 /*
  * Pushes tiles together in the left direction. Returns true if tiles have
  * moved and false if no tiles moved.

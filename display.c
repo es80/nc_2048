@@ -11,6 +11,8 @@
 #include <stdbool.h>
 #include <string.h>
 
+extern struct game g;
+
 /*
  * Draws borders at the top and bottom of window.
  */
